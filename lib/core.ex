@@ -5,7 +5,7 @@ defmodule Onion.TCP.Server do
             @doc """
             Create server instance 
             args:
-                port: 8080 - port
+                port: 5555 - port
                 max_acceptors: uuid - acceptors name
             """
             defmacro deftcpserver name, args \\ [], code do                
